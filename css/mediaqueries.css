@@ -1,0 +1,93 @@
+@media screen and (max-width: 1440px){
+    #hero{
+        height: 83vh;
+    }
+    .about-description-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+    section{
+        height: fit-content;
+        margin: 0 5%;
+    }
+    #hero{
+        display: block;
+    }
+    .profile-container{
+        height: 275px;
+        width: 275px;
+        margin: 0 auto 2rem;
+    }
+    #skills, .skills-container{
+        margin-top: 2rem;
+    }
+    .arrow{
+        display: none;
+    }
+    .about-description-container{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .menu-links li a{
+        font-size: 1.25rem;
+    }
+    #hero{
+        height: 83vh;
+        margin-bottom: 2rem;
+    }
+    .profile-container{
+        height: 200px;
+        width: 200px;
+    }
+    .about-text{
+        text-align: justify;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .project-img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    article{
+        font-size: 1rem;
+    }
+    .about-description-container, .button-container, .contact-outer-container{
+        flex-wrap: wrap;
+    }
+    #contact, footer{
+        height: 40vh;
+    }
+    .contact-inner-container{
+        margin: 0px; 
+    }
+    .contact-inner-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    footer nav{
+        margin-bottom: 2rem;
+        height: fit-content;
+    }
+    .nav-links{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }   
+}

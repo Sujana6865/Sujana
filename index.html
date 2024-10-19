@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Portfolio</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Sujana Limbu</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="mobile-nav">
+            <div class="logo">Sujana Limbu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div class="profile-container">
+                <img src="./asset/wave.jpg" alt="Profile of Sujana" class="about-profile">
+            </div>
+            <div class="description-container">
+                <h1 class="title">Hello I'm Sujana</h1>
+                <h5>Junior Frontend Developer</h5>
+                <p class="hero-description">
+                    I am passionate about creating beautiful and functional web experiences. With a solid foundation of HTML, CSS, and JavaScript, I am eager to bring innovative ideas to life and continuously learn new technologies.    
+                </p>
+                
+                <div class="button-container">
+                    <button class="btn btn-download">
+                        <a href="./asset/NewFDCV .pdf" download>Download CV</a>
+                    </button>
+                    <button class="btn btn-contact" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div class="socialmedia-container">
+                    <img class="icon" src="./asset/linkedin.png" alt="My linkedIn Profile" onclick="location.href='https://www.linkedin.com/in/sujana-limbu-9bb7b2260/'">
+                    <img class="icon" src="./asset/github.png" alt="My github Profile" onclick="location.href='https://github.com/Sujana6865'">
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="about">
+            <h1 class="title">About Me</h1>
+            <div class="about-description">
+                <div class="about-description-container">
+                    <div class="details-container">
+                        <img src="./asset/experience.png" alt="experience logo" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ Years<br>
+                            Frontend Developer
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./asset/education.png" alt="education logo" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Computer Science and Information Technology</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p> 
+                        My journey began with a love for technology and design, and over the years, I have honed my skills by working on diverse projects, from static websites to dynamic and responsive sites. I thrive on challenges and continuously strive to learn and implement the latest trend and technologies in my work.
+                        <br>
+                        <br>
+                        When I'm not coding, you will find me exploring new design concepts, enjoying a good book or playing the guitar. I believe in the power of collaboration and I am always excited to connect with like-minded individuals.
+                    </p>
+                </div>
+            </div>
+            <img src="./asset/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+        </section>
+
+        <section id="skills">
+            <h1 class="title">My Skills</h1>
+            <div class="skills-container">
+                <div class="about-description-container">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./asset/html-5.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>SASS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./asset/css3.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                          
+                           
+                          
+                            <article>
+                                <img src="./asset/js.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development Tools</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Visual Studio Code</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./asset/github.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./asset/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+
+        <section id="projects">
+            <h1 class="title">My Projects</h1>
+            <div class="skills-container">
+                <div class="about-description-container">
+                    <div class="hidden details-container">
+                        <div class="article-container">
+                            <img class="project-img" src="./asset/project-1.png" alt="First Project">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Tea-Cozy Cafe Website</h2>
+                        <div class="button-container">
+                            <button class="btn btn-download project-btn" onclick="location.href='https://github.com/Sujana6865/Tea-Cozy'">GitHub</button>
+                            <button class="btn btn-download project-btn" onclick="location.href='https://sujana6865.github.io/Tea-Cozy/'">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="hidden details-container">
+                        <div class="article-container">
+                            <img class="project-img" src="./asset/project-2.png" alt="First Project">
+                        </div>
+                        <h2 class="experience-sub-title project-title">HTML and CSS CheatSheet</h2>
+                        <div class="button-container">
+                            <button class="btn btn-download project-btn" onclick="location.href='https://github.com/Sujana6865/HTML-CSS-CheatSheet'">GitHub</button>
+                            <button class="btn btn-download project-btn" onclick="location.href='https://sujana6865.github.io/HTML-CSS-CheatSheet/'">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="hidden details-container">
+                        <div class="article-container">
+                            <img class="project-img" src="./asset/project-3.png" alt="First Project">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Colchester Badmintion Club</h2>
+                        <div class="button-container">
+                            <button class="btn btn-download project-btn" onclick="location.href='https://github.com/Sujana6865/learning/tree/main/colchester-badmintion-club'">GitHub</button>
+                            <button class="btn btn-download project-btn" onclick="location.href='https://sujana6865.github.io/learning/colchester-badmintion-club/'">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <img src="./asset/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"> 
+        </section>
+
+        <section id="contact">
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-outer-container">
+                <div class="contact-inner-container">
+                    <img src="/asset/email.png" alt="email icon" class="icon contact-icon email-icon">
+                    <p>
+                        <a href="mailto:sujanalimbu6865@gmail.com">sujanalimbu6865@gmail.com</a>
+                    </p>
+                </div>
+                <div class="contact-inner-container">
+                    <img src="/asset/linkedin.png" alt="linkedIn icon" class="icon contact-icon">
+                    <p>
+                        <a href="https://www.linkedin.com/in/sujana-limbu-9bb7b2260/">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <div class="nav-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>
+                Copyright &#169; 2024 Sujana Limbu. All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
